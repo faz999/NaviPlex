@@ -1,0 +1,159 @@
+version=7
+title=CBS All shows
+
+type=playlist
+name=48 Hours Mystery
+thumb=http://wwwimage.cbs.com/primetime/48_hours/images/content/home/48_bottomcallout_cbsnews.jpg
+URL=http://navix.turner3d.net/scrape/cbs/show/primetime/48_hours
+#
+type=playlist
+name=60 Minutes
+thumb=http://navix.turner3d.net/images/backgrounds/thumb_60_minutes.jpg
+URL=http://navix.turner3d.net/scrape/cbs/show/primetime/60_minutes
+#
+type=playlist
+name=As The World Turns
+thumb=http://wwwimage.cbs.com/daytime/as_the_world_turns/images/common/show_logo.png
+URL=http://navix.turner3d.net/scrape/cbs/show/daytime/as_the_world_turns
+#
+type=playlist
+name=Beverly Hills 90210
+thumb=http://www.cbs.com/classics/beverly_hills_90210/images/common/show_logo.gif
+URL=http://navix.turner3d.net/scrape/cbs/show/classics/beverly_hills_90210
+#
+type=playlist
+name=Big Brother
+thumb=http://www.cbs.com/primetime/big_brother/images/common/show_logo.gif
+URL=http://navix.turner3d.net/scrape/cbs/show/primetime/big_brother
+#
+type=playlist
+name=Big Brother House Calls
+thumb=http://www.cbs.com/primetime/big_brother/images/content/home/rightrail_bb_community.jpg
+URL=http://navix.turner3d.net/scrape/cbs/show/primetime/big_brother/housecalls
+#
+type=playlist
+name=The Bold and the Beautiful
+thumb=http://wwwimage.cbs.com/daytime/the_bold_and_the_beautiful/images/common/show_logo.png
+URL=http://navix.turner3d.net/scrape/cbs/show/daytime/the_bold_and_the_beautiful
+#
+type=playlist
+name=CBS Evening News
+thumb=http://wwwimage.cbs.com/cbs_evening_news/images/common/show_logo.png
+URL=http://navix.turner3d.net/scrape/cbs/show/cbs_evening_news
+#
+type=playlist
+name=CSI: Crime Scene Investigation
+thumb=http://www.cbs.com/primetime/csi/images/common/show_logo.gif
+URL=http://navix.turner3d.net/scrape/cbs/show/primetime/csi
+#
+type=playlist
+name=CSI: Miami
+thumb=http://www.cbs.com/primetime/csi_miami/images/common/show_logo.gif
+URL=http://navix.turner3d.net/scrape/cbs/show/primetime/csi_miami
+#
+type=playlist
+name=CSI: NY
+thumb=http://www.cbs.com/primetime/csi_ny/images/common/show_logo.gif
+URL=http://navix.turner3d.net/scrape/cbs/show/primetime/csi_ny
+#
+type=playlist
+name=Dynasty
+thumb=http://www.cbs.com/classics/dynasty/images/common/show_logo.gif
+URL=http://navix.turner3d.net/scrape/cbs/show/classics/dynasty
+#
+type=playlist
+name=Family Ties
+thumb=http://www.cbs.com/classics/family_ties/images/common/show_logo.gif
+URL=http://navix.turner3d.net/scrape/cbs/show/classics/family_ties
+#
+type=playlist
+name=Flashpoint
+thumb=http://www.cbs.com/primetime/flashpoint/images/common/show_logo.gif
+URL=http://navix.turner3d.net/scrape/cbs/show/primetime/flashpoint
+#
+type=playlist
+name=The Good Wife
+thumb=http://www.cbs.com/primetime/the_good_wife/images/common/show_logo.gif
+URL=http://navix.turner3d.net/scrape/cbs/show/primetime/the_good_wife
+#
+type=playlist
+name=Hawaii Five-O
+thumb=http://www.cbs.com/classics/hawaii_five_0/images/common/show_logo.gif
+URL=http://navix.turner3d.net/scrape/cbs/show/classics/hawaii_five_0
+#
+type=playlist
+name=InTurn
+thumb=http://www.cbs.com/originals/inturn3/images/common/show_logo.gif
+URL=http://navix.turner3d.net/scrape/cbs/show/originals/inturn3
+#
+type=playlist
+name=The Late Late Show with Craig Ferguson
+thumb=http://wwwimage.cbs.com/late_late_show/images/common/show_logo.png
+URL=http://navix.turner3d.net/scrape/cbs/show/late_late_show
+#
+type=playlist
+name=Late Show with David Letterman
+thumb=http://www.cbs.com/late_show/images/common/show_logo.gif
+URL=http://navix.turner3d.net/scrape/cbs/show/late_show
+#
+type=playlist
+name=The Love Boat
+thumb=http://www.cbs.com/classics/the_love_boat/images/common/show_logo.gif
+URL=http://navix.turner3d.net/scrape/cbs/show/classics/the_love_boat
+#
+type=playlist
+name=MacGyver
+thumb=http://www.cbs.com/classics/macgyver/images/common/show_logo.gif
+URL=http://navix.turner3d.net/scrape/cbs/show/classics/macgyver
+#
+type=playlist
+name=Melrose Place
+thumb=http://www.cbs.com/classics/melrose_place/images/common/show_logo.gif
+URL=http://navix.turner3d.net/scrape/cbs/show/classics/melrose_place
+#
+type=playlist
+name=NCIS
+thumb=http://www.cbs.com/primetime/ncis/images/common/show_logo.gif
+URL=http://navix.turner3d.net/scrape/cbs/show/primetime/ncis
+#
+type=playlist
+name=NCIS: Los Angeles
+thumb=http://www.cbs.com/primetime/ncis_los_angeles/images/common/show_logo.gif
+URL=http://navix.turner3d.net/scrape/cbs/show/primetime/ncis_los_angeles
+#
+type=playlist
+name=Perry Mason
+thumb=http://www.cbs.com/classics/perry_mason/images/common/show_logo.gif
+URL=http://navix.turner3d.net/scrape/cbs/show/classics/perry_mason
+#
+type=playlist
+name=Star Trek: The Original Series
+thumb=http://navix.turner3d.net/images/backgrounds/thumb_sttos.jpg
+URL=http://navix.turner3d.net/scrape/cbs/show/classics/star_trek
+#
+type=playlist
+name=The Twilight Zone
+thumb=http://www.cbs.com/classics/the_twilight_zone/images/common/show_logo.gif
+URL=http://navix.turner3d.net/scrape/cbs/show/classics/the_twilight_zone
+#
+type=playlist
+name=Twin Peaks
+thumb=http://www.cbs.com/classics/twin_peaks/images/common/show_logo.gif
+URL=http://navix.turner3d.net/scrape/cbs/show/classics/twin_peaks
+#
+type=playlist
+name=Undercover Boss
+thumb=http://www.cbs.com/primetime/undercover_boss/images/common/show_logo.gif
+URL=http://navix.turner3d.net/scrape/cbs/show/primetime/undercover_boss
+#
+type=playlist
+name=The Young and the Restless
+thumb=http://wwwimage.cbs.com/daytime/the_young_and_the_restless/images/common/show_logo.png
+URL=http://navix.turner3d.net/scrape/cbs/show/daytime/the_young_and_the_restless
+#
+type=playlist
+name=Undercover Boss
+thumb=http://www.cbs.com/primetime/undercover_boss/images/common/show_logo.gif
+URL=http://navix.turner3d.net/scrape/cbs/show/primetime/undercover_boss
+#
+

@@ -1,0 +1,123 @@
+content-type:text/plain
+
+version=7
+title=primetime/big_brother
+#http://www.cbs.com/sitefeeds/primetime/big_brother/episodes.js
+
+background=http://wwwimage.cbs.com/primetime/big_brother/images/common/bottom-bg.jpg
+type=video
+name=s12e19 - Episode 19
+thumb=http://thumbnails.cbsig.net/CBS_Production_Entertainment/474/581/CBS_BIG_BROTHER_1219_IMAGE_CIAN_REDO_640x480__758480.jpg
+processor=http://navix.turner3d.net/proc/cbs
+URL=http://www.cbs.com/primetime/big_brother/video/video.php?cid=1539221122&pid=eB1VseAkFPSa7jKqUbD9g6RNSRn2OyrY&play=true
+#
+type=video
+name=s12e18 - Episode 18
+thumb=http://thumbnails.cbsig.net/CBS_Production_Entertainment/473/713/CBS_BIG_BROTHER_1218_IMAGE_CIAN_640x480__031942.jpg
+processor=http://navix.turner3d.net/proc/cbs
+URL=http://www.cbs.com/primetime/big_brother/video/video.php?cid=1539221122&pid=GxoDNhfvjktjgJATH4sISo5zHoghiCPX&play=true
+#
+type=video
+name=s12e17 - Episode 17
+thumb=http://thumbnails.cbsig.net/CBS_Production_Entertainment/471/430/CBS_BIG_BROTHER_1217_IMAGE_CIAN_640x480.jpg
+processor=http://navix.turner3d.net/proc/cbs
+URL=http://www.cbs.com/primetime/big_brother/video/video.php?cid=1539221122&pid=5upHBlZRiXmCh7EqzSwIC7AnWPkUzSz1&play=true
+#
+type=video
+name=s12e16 - Episode 16
+thumb=http://thumbnails.cbsig.net/CBS_Production_Entertainment/469/832/CBS_BIG_BROTHER_1216_IMAGE_CIAN_640x480.jpg
+processor=http://navix.turner3d.net/proc/cbs
+URL=http://www.cbs.com/primetime/big_brother/video/video.php?cid=1539221122&pid=903EsXYzjQtZThDbd1sBAdgP8oTgfSMC&play=true
+#
+type=video
+name=s12e15 - Episode 15
+thumb=http://thumbnails.cbsig.net/CBS_Production_Entertainment/468/1012/CBS_BIG_BROTHER_1215_IMAGE_CIAN_640x480__980695.jpg
+processor=http://navix.turner3d.net/proc/cbs
+URL=http://www.cbs.com/primetime/big_brother/video/video.php?cid=1539221122&pid=FG4NoB9JReK9hQaq5PrCpP8dXwMGUq_a&play=true
+#
+type=video
+name=s12e14 - Episode 14
+thumb=http://thumbnails.cbsig.net/CBS_Production_Entertainment/466/617/CBS_BIG_BROTHER_1214_CONTENT_CIAN_R_640x480__252329.jpg
+processor=http://navix.turner3d.net/proc/cbs
+URL=http://www.cbs.com/primetime/big_brother/video/video.php?cid=1539221122&pid=gU4VUlfcCask0wfnMD62uSywim9q_t9q&play=true
+#
+type=video
+name=s12e13 - Episode 13
+thumb=http://thumbnails.cbsig.net/CBS_Production_Entertainment/465/1/CBS_BIG_BROTHER_1213_IMAGE_CIAN_640x480.jpg
+processor=http://navix.turner3d.net/proc/cbs
+URL=http://www.cbs.com/primetime/big_brother/video/video.php?cid=1539221122&pid=cBn2XN9q_gDFDANc9OZKOrleGuaqWiGW&play=true
+#
+type=video
+name=s12e12 - Big Brother - Episode 12
+thumb=http://thumbnails.cbsig.net/CBS_Production_Entertainment/464/111/CBS_BIG_BROTHER_1212_IMAGE_CIAN_640x480.jpg
+processor=http://navix.turner3d.net/proc/cbs
+URL=http://www.cbs.com/primetime/big_brother/video/video.php?cid=1539221122&pid=li7cg1QkLKtJuP_OacFMoIVyRdVPAy2w&play=true
+#
+type=video
+name=s12e11 - Episode 11
+thumb=http://thumbnails.cbsig.net/CBS_Production_Entertainment/462/16/CBS_BIG_BROTHER_1211_CONTENT_CIAN_640x480.jpg
+processor=http://navix.turner3d.net/proc/cbs
+URL=http://www.cbs.com/primetime/big_brother/video/video.php?cid=1539221122&pid=HihGC2Djd0a2U9FhR_Ha4aTAbImIQhZI&play=true
+#
+type=video
+name=s12e10 - Episode 10
+thumb=http://thumbnails.cbsig.net/CBS_Production_Entertainment/460/171/CBS_BIG_BROTHER_1210_IMAGE_CIAN_640x480__991387.jpg
+processor=http://navix.turner3d.net/proc/cbs
+URL=http://www.cbs.com/primetime/big_brother/video/video.php?cid=1539221122&pid=P0tAcsLdy1Wh4cfH8ftvE_7vYgvTJgCZ&play=true
+#
+type=video
+name=s12e09 - Episode 9
+thumb=http://thumbnails.cbsig.net/CBS_Production_Entertainment/459/18/CBS_BIG_BROTHER_1209_IMAGE_CIAN_640x480.jpg
+processor=http://navix.turner3d.net/proc/cbs
+URL=http://www.cbs.com/primetime/big_brother/video/video.php?cid=1539221122&pid=kYpuiW5qRq22X_QMkJuHG2vUyPDo9UXz&play=true
+#
+type=video
+name=s12e08 - Episode 8
+thumb=http://thumbnails.cbsig.net/CBS_Production_Entertainment/456/674/CBS_BIGBROTHER_1208_IMAGE_CIAN_640x480.jpg
+processor=http://navix.turner3d.net/proc/cbs
+URL=http://www.cbs.com/primetime/big_brother/video/video.php?cid=1539221122&pid=Th42DfQXgxW0_zlZBWg7S2qnrH9K2Mai&play=true
+#
+type=video
+name=s12e07 - Episode 7
+thumb=http://thumbnails.cbsig.net/CBS_Production_Entertainment/455/231/CBS_BIG_BROTHER_1207_IMAGE_CIAN_640x480.jpg
+processor=http://navix.turner3d.net/proc/cbs
+URL=http://www.cbs.com/primetime/big_brother/video/video.php?cid=1539221122&pid=s61u18d27ztBK2iEGFCG25ishAaxCdTH&play=true
+#
+type=video
+name=s12e06 - Episode 6
+thumb=http://thumbnails.cbsig.net/CBS_Production_Entertainment/454/488/CBS_BIGBROTHER_1206_IMAGE_CIAN_640x480__133969.jpg
+processor=http://navix.turner3d.net/proc/cbs
+URL=http://www.cbs.com/primetime/big_brother/video/video.php?cid=1539221122&pid=0QZ0mKQB5UbumeLM9T1n_3jFa8jYfvxp&play=true
+#
+type=video
+name=s12e05 - Episode 5
+thumb=http://thumbnails.cbsig.net/CBS_Production_Entertainment/452/154/CBS_BIG_BROTHER_1205_IMAGE_CIAN_REDO_640x480__780978.jpg
+processor=http://navix.turner3d.net/proc/cbs
+URL=http://www.cbs.com/primetime/big_brother/video/video.php?cid=1539221122&pid=77wkQZzvvc5mJnXFwdxi2nDsOdeGoXOv&play=true
+#
+type=video
+name=s12e04 - Episode 4
+thumb=http://thumbnails.cbsig.net/CBS_Production_Entertainment/450/203/CBS_BIG_BROTHER_1204_IMAGE_CIAN_640x480.jpg
+processor=http://navix.turner3d.net/proc/cbs
+URL=http://www.cbs.com/primetime/big_brother/video/video.php?cid=1539221122&pid=G_jVwfDIONA_Yi45CPsqHmL9tB_1gvnm&play=true
+#
+type=video
+name=s12e03 - Episode 3
+thumb=http://thumbnails.cbsig.net/CBS_Production_Entertainment/449/503/CBS_BIG_BROTHER_1203_IMAGE_CIAN_640x480__611529.jpg
+processor=http://navix.turner3d.net/proc/cbs
+URL=http://www.cbs.com/primetime/big_brother/video/video.php?cid=1539221122&pid=PA_fob2eKYJrDbxX7p3Z5TzGrSWqfEaW&play=true
+#
+type=video
+name=s12e02 - Episode 2
+thumb=http://thumbnails.cbsig.net/CBS_Production_Entertainment/447/642/CBS_BIG_BROTHER_1202_IMAGE_CIAN_640x480__018573.jpg
+processor=http://navix.turner3d.net/proc/cbs
+URL=http://www.cbs.com/primetime/big_brother/video/video.php?cid=1539221122&pid=yE3GNckUXR76uAV_u2LddnwW6bKC_Ix0&play=true
+#
+type=video
+name=s12e01 - Episode 1
+thumb=http://thumbnails.cbsig.net/CBS_Production_Entertainment/445/1020/CBS_BIG_BROTHER_1201_IMAGE_CIAN_640x480__547859.jpg
+processor=http://navix.turner3d.net/proc/cbs
+URL=http://www.cbs.com/primetime/big_brother/video/video.php?cid=1539221122&pid=1JkvZg4eLzW7HD9u_0_tW7VexiwWUmR3&play=true
+#
+version=7
+

@@ -1,0 +1,28 @@
+version=7
+title=CBS
+logo=http://navix.turner3d.net/images/backgrounds/thumb_cbs.png
+
+type=playlist
+name=All shows
+URL=http://navix.turner3d.net/scrape/cbs/type/all
+
+type=playlist
+name=Primetime
+URL=http://navix.turner3d.net/scrape/cbs/type/primetime
+
+type=playlist
+name=Daytime
+URL=http://navix.turner3d.net/scrape/cbs/type/daytime
+
+type=playlist
+name=Late Night
+URL=http://navix.turner3d.net/scrape/cbs/type/late
+
+type=playlist
+name=TV Classics
+URL=http://navix.turner3d.net/scrape/cbs/type/classics
+
+type=playlist
+name=HD Showcase
+URL=http://navix.turner3d.net/scrape/cbs_hd/
+

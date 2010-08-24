@@ -1,0 +1,96 @@
+version=8
+background=http://website.navi-x.org/networks/bg.png
+title=Navi-X Networks
+logo=http://website.navi-x.org/networks/logo.png
+#description=This section contains Multimedia content from around the world, publicly available on the internet./description
+
+type=playlist
+name=Highlights
+URL=http://website.navi-x.org/-networks/Highlights/index.plx
+thumb=http://website.navi-x.org/networks/logo.png
+icon=http://website.navi-x.org/networks/icon.png
+description=Each month I will highlight interesting playlists./description
+date=2010-08-04
+
+type=playlist
+name=TV Shows
+URL=http://website.navi-x.org/-networks/TV_Shows/index.plx
+description=This section contains television shows & videos from video hosts and websites. However occasionally it can have audio or other content. On top of the playlist you will see a couple of genre listed./description
+thumb=http://website.navi-x.org/networks/logo.png
+icon=http://website.navi-x.org/networks/icon.png
+date=2010-08-04
+
+#
+type=playlist
+name=Movies
+URL=http://website.navi-x.org/-networks/Movies/index.plx
+description=This section contains movies from video hosts and websites./description
+thumb=http://website.navi-x.org/networks/logo.png
+icon=http://website.navi-x.org/networks/icon.png
+date=2010-08-04
+
+type=playlist
+name=Regional
+URL=http://www.box.net/rssdownload/291003130/index.plx
+#URL=http://website.navi-x.org/networks/video/regional/index.plx
+#thumb=http://website.navi-x.org/networks/video/regional/world.png
+thumb=http://website.navi-x.org/networks/logo.png
+icon=http://website.navi-x.org/networks/icon.png
+description=This section contains mutimedia content from public broadcasters around the world. In opposite to other playlists this is mostly focus to non english or non U.S.A content.
+And most of the playlist are not site scrapers, but playlists of users you could view on Navi-Xtreme./description
+
+#
+type=playlist
+name=Video & Audio Podcasts
+URL=http://website.navi-x.org/-networks/Video_&_Audio_Podcasts/index.plx
+#URL=http://www.navi-x.org/playlists/podcasts/podcasts.plx
+description=This section contains podcasts from around the world./description
+#thumb=http://www.navi-x.org/playlists/podcasts/podcast.png
+thumb=http://website.navi-x.org/networks/logo.png
+icon=http://website.navi-x.org/networks/icon.png
+date=2010-08-04
+
+#
+type=playlist
+name=Audio Networks
+URL=http://website.navi-x.org/-networks/Audio_Networks/index.plx
+description=This section contains audio content from around the world, publicly available on the internet./description
+thumb=http://website.navi-x.org/networks/logo.png
+icon=http://website.navi-x.org/networks/icon.png
+date=2010-08-04
+
+#
+type=playlist
+name=Images
+URL=http://website.navi-x.org/-networks/Images/index.plx
+description=This section contains images./description
+thumb=http://website.navi-x.org/networks/logo.png
+icon=http://website.navi-x.org/networks/icon.png
+date=2010-08-04
+
+type=playlist
+name=Gaming Networks
+URL=http://website.navi-x.org/-networks/Gaming_Networks/index.plx
+thumb=http://website.navi-x.org/networks/logo.png
+icon=http://website.navi-x.org/networks/icon.png
+description=Games. In the future I will focus to write more how to use this and what is needed to run these games./description
+
+type=rss
+name=Navi_X and NaviXNetworks
+URL=http://pipes.yahoo.com/pipes/pipe.run?_id=3d4560d62bef22201deebea203646431&_render=rss
+#URL=http://twitter.com/statuses/user_timeline/75868832.rss
+thumb=http://website.navi-x.org/networks/logos/twitter.jpg
+icon=http://website.navi-x.org/networks/twitter_icon.png
+description=This section contains updates regarding Navi-X and Navi-X Networks from Twitter./description
+date=2010-07-30
+
+type=playlist
+name=Media Center Section & Help and Support
+URL=http://website.navi-x.org/-networks/Media_Center_Section_&_Help_and_Support/main_playlist/Help_and_Support.plx
+#URL=http://www.box.net/rssdownload/341663878/Help%20and%20Support.plx
+thumb=http://website.navi-x.org/networks/logo.png
+icon=http://website.navi-x.org/networks/icon.png
+description=Brand New!!! Media Center with specific Help and Support and some got specific content. Help and Support including tips and tricks and isseus playing media./description
+date=2010-08-04
+
+

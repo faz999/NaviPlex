@@ -4,13 +4,13 @@ class Feed:
   import re
 
   v = "version="
-  regv = "version=(.+?){1,}"
+  regv = "^version=(.+?){1,}"
   t = "title="
-  regt = "title=(.+?){1,}"
+  regt = "^title=(.+?){1,}"
   l = "logo="
-  regl = "logo=(.+?){1,}"
+  regl = "^logo=(.+?){1,}"
   b = "background="
-  regb = "background=(.+?){1,}"
+  regb = "^background=(.+?){1,}"
 
   version = 0
   logo = None
@@ -56,19 +56,22 @@ class Feed:
 class FeedItem:
 
   t = "type="
-  regt = "type=(.+?){1,}"
+  regt = "[^#]type=(.+?){1,}"
   n = "name="
-  regn = "name=(.+?){1,}"
+  regn = "[^#]name=(.+?){1,}"
   u = "URL="
-  regu = "URL=(.+?){1,}"
+  regu = "[^#]URL=(.+?){1,}"
   d = "description="
-  regd = "description=(.+?){1,}"
+  regd = "[^#]description=(.+?){1,}"
   i = "icon="
-  regi = "icon=(.+?){1,}"
+  regi = "[^#]icon=(.+?){1,}"
   th = "thumb="
-  regth = "thumb=(.+?){1,}"
+  regth = "[^#]thumb=(.+?){1,}"
   dt = "date="
-  regdt = "date=(.+?){1,}"
+  regdt = "vdate=(.+?){1,}"
+
+  URL = None
+  name = None
 
   def __init__(self,content):
 
@@ -87,34 +90,16 @@ class FeedItem:
     if re.search(self.regd, content)!=None and re.search(self.regd, content).start()>0:
       self.date = re.search(self.regd, content).group(0).replace(self.dt,"")
  
-filename = "shows.txt"
+filename = "main.txt"
 
 FILE = open(filename, "r")
 content = FILE.read()
-
-# print content
-
-#for line in FILE.readlines():
-#  if line.startswith('#'):
-#    continue
-#  if len(line.lstrip())==0:
-#    continue
-#  print "line = " + line
-
 FILE.close()
 
-#import re
-#print re.search("version=(.+?)", content).start() > 0
-#version = re.search("version=(.+?)", content).group(1)
-#logo = re.search("logo=(.+?)", content).group(1)
-#title = re.search("title=(.+?)", content).group(1)
-#background = re.search("background=(.+?)", content).group(1)
-#print version
-
 f = Feed(content)
-print f.version, f.title, f.logo, f.background, len(f.items)
-print f.items[30].name
-
+#print f.version, f.title, f.logo, f.background, len(f.items)
+for item in f.items:
+  print item.URL
 # attempt to find feed item chunks using reg ex..
 reg = "^type="
 

@@ -156,6 +156,8 @@ class FeedItem:
   description = ""
   icon = None
   thumb = None
+  name = ""
+  URL = ""
 
   def __init__(self,content):
 

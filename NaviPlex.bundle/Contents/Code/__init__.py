@@ -3,6 +3,7 @@ from PMS import *
 from PMS.Objects import *
 from PMS.Shortcuts import *
 import re
+import urllib
 
 ####################################################################################################
 
@@ -28,8 +29,7 @@ def Start():
 def VideoMainMenu():
 
     dir = MediaContainer(viewGroup="InfoList")
-    content = HTTP.Request(MAIN_URL, 
-        values = { 'User-Agent' : 'Mozilla/4.0 (compatible;MSIE 7.0;Windows NT 6.0)'})
+    content = GetContents(MAIN_URL)
     feed = Feed(content)
     for item in feed.items:
       if item.thumb != None:
@@ -61,10 +61,25 @@ def CallbackExample(sender):
         "In real life, you'll make more than one callback,\nand you'll do something useful.\nsender.itemTitle=%s" % sender.itemTitle
     )
 
+# ****************************************************
+# by wrapping the read for the url, i abstract the method
+# which means we can easily switch to the plex framework method
+# or use urllib, or whatever.
+# ****************************************************
+def GetContents(url):
+  Log("requesting url: " + url)
+  response = ""
+  # docs say read() method may not be reliable for larger responses
+  #return urllib.urlopen(url).read()
+  opened = urllib.urlopen(url)
+  for line in opened.readlines():
+    response += line
+
+  return response
+
 def ReadPage(sender, url):   
     dir = MediaContainer(viewGroup="InfoList")
-    content = HTTP.Request(url,
-        values = { 'User-Agent' : 'Mozilla/4.0 (compatible;MSIE 7.0;Windows NT 6.0)'})
+    content = GetContents(url)    
     feed = Feed(content)
     for item in feed.items:
       if item.thumb != None:

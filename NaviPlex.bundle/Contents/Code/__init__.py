@@ -28,7 +28,8 @@ def Start():
 def VideoMainMenu():
 
     dir = MediaContainer(viewGroup="InfoList")
-    content = HTTP.Request(MAIN_URL)
+    content = HTTP.Request(MAIN_URL, 
+        values = { 'User-Agent' : 'Mozilla/4.0 (compatible;MSIE 7.0;Windows NT 6.0)'})
     feed = Feed(content)
     for item in feed.items:
       if item.thumb != None:
@@ -62,7 +63,8 @@ def CallbackExample(sender):
 
 def ReadPage(sender, url):   
     dir = MediaContainer(viewGroup="InfoList")
-    content = HTTP.Request(url)
+    content = HTTP.Request(url,
+        values = { 'User-Agent' : 'Mozilla/4.0 (compatible;MSIE 7.0;Windows NT 6.0)'})
     feed = Feed(content)
     for item in feed.items:
       if item.thumb != None:

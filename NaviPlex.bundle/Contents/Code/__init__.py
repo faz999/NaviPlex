@@ -71,11 +71,16 @@ def GetContents(url):
   response = ""
   # docs say read() method may not be reliable for larger responses
   #return urllib.urlopen(url).read()
-  opened = urllib.urlopen(url)
-  for line in opened.readlines():
-    response += line
+  try:
+    opened = urllib.urlopen(url)
+    for line in opened.readlines():
+      response += line
 
-  return response
+    opened.close()
+    return response
+  except IOError, e:
+    Log("error connecting to server: %s" % e)
+    return ""
 
 def ReadPage(sender, url):   
     dir = MediaContainer(viewGroup="InfoList")

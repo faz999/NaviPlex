@@ -67,25 +67,21 @@ def CallbackExample(sender):
 # or use urllib, or whatever.
 # ****************************************************
 def GetContents(url):
-  Log("requesting url: " + url)
-  response = ""
-  # docs say read() method may not be reliable for larger responses
-  #return urllib.urlopen(url).read()
+  Log("requesting url: " + url.strip())
+  playlist = ""
   try:
-    opened = urllib.urlopen(url)
-    for line in opened.readlines():
-      response += line
-
-    opened.close()
-    return response
-  except IOError, e:
-    Log("error connecting to server: %s" % e)
-    return ""
+    playlist = HTTP.Request(url.strip())
+  except:
+    Log("error fetching playlist")
+  #Log(playlist)
+  return playlist
 
 def ReadPage(sender, url):   
     dir = MediaContainer(viewGroup="InfoList")
     content = GetContents(url)    
+    #Log("fetched playlist")
     feed = Feed(content)
+    Log("loaded feed %s" % feed.title)
     for item in feed.items:
       if item.thumb != None:
         thumb = item.thumb
@@ -98,12 +94,13 @@ def ReadPage(sender, url):
               item.name,
               item.description,
               item.description,
-              thumb=thumb,
+              thumb=R(ICON),
               art=R(ART)
             ),
             url=item.URL
         )
       )
+    return dir
 
 class Feed:
   import re
@@ -121,9 +118,10 @@ class Feed:
   logo = None
   background = None
   title = None
-  items = list() 
+  items = None 
 
   def __init__(self,content):
+    self.items = list()
     self.version = 1 # default version number
     lines = content.split('\n')
     if re.search(self.regv, content,re.M)!=None and re.search(self.regv, content,re.M).start()>0:

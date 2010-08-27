@@ -1,6 +1,4 @@
 import re
-import sys
-sys.path.append('..\\NaviPlex.bundle\\Contents\\Code')
 from feed import *
 
 filename = "main.txt"

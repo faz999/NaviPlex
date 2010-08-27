@@ -2,8 +2,6 @@
 from PMS import *
 from PMS.Objects import *
 from PMS.Shortcuts import *
-import re
-import urllib
 from feed import *
 
 ####################################################################################################
@@ -37,14 +35,20 @@ def VideoMainMenu():
         thumb = item.thumb
       else:
         thumb = R(ICON)
+      if item.icon != None:
+        art = item.icon
+      else:
+        art = R(ART)
+      Log("thumb = %s" % thumb)
+      Log("art = %s" % art)
       dir.Append(
           Function(
             DirectoryItem(
               ReadPage,
               item.name,
-              item.description,
-              item.description,
-              thumb=thumb,
+              subtitle=item.description,
+              summary=item.description,
+              thumb=item.thumb,
               art=R(ART)
             ),
             url=item.URL
@@ -52,15 +56,6 @@ def VideoMainMenu():
       )
 
     return dir
-    #return ReadPage("", MAIN_URL)
-
-
-def CallbackExample(sender):
-
-    return MessageContainer(
-        "Not implemented",
-        "In real life, you'll make more than one callback,\nand you'll do something useful.\nsender.itemTitle=%s" % sender.itemTitle
-    )
 
 # ****************************************************
 # by wrapping the read for the url, i abstract the method
@@ -94,19 +89,45 @@ def ReadPage(sender, url):
       else:
         art=R(ART)
       Log("thumb = %s" % thumb)
-      Log("icon = %s" % thumb)
-      dir.Append(
-          Function(
-            DirectoryItem(
-              ReadPage,
-              item.name,
-              item.description,
-              item.description,
-              thumb=thumb,
-              art=art
-            ),
-            url=item.URL
+      Log("art = %s" % art)
+      if item.type=="video":
+        dir.Append(
+            Function(
+              WebVideoItem(
+                CallbackExample,
+                title=item.name, 
+                summary=None, 
+                thumb=item.thumb 
+              ),
+              url=item.URL
+           )
         )
-      )
+      else:
+        dir.Append(
+            Function(
+              DirectoryItem(
+                ReadPage,
+                item.name,
+                subtitle=item.description,
+                summary=item.description,
+                thumb=item.thumb,
+                art=R(ART)
+              ),
+              url=item.URL
+           )
+        )
     return dir
+
+def ShowVideo(sender, url):
+  return None
+
+def CallbackExample(sender,titleUrl):
+
+    ## you might want to try making me return a MediaContainer
+    ## containing a list of DirectoryItems to see what happens =)
+
+    return MessageContainer(
+        "Not implemented",
+        "In real life, you'll make more than one callback,\nand you'll do something useful.\nsender.itemTitle=%s" % sender.itemTitle
+    )
 

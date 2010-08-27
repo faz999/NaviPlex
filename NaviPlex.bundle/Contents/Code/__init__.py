@@ -39,8 +39,6 @@ def VideoMainMenu():
         art = item.icon
       else:
         art = R(ART)
-      Log("thumb = %s" % thumb)
-      Log("art = %s" % art)
       dir.Append(
           Function(
             DirectoryItem(
@@ -88,13 +86,11 @@ def ReadPage(sender, url):
         art=item.icon
       else:
         art=R(ART)
-      Log("thumb = %s" % thumb)
-      Log("art = %s" % art)
       if item.type=="video":
         dir.Append(
             Function(
               WebVideoItem(
-                CallbackExample,
+                ShowVideo,
                 title=item.name, 
                 summary=None, 
                 thumb=item.thumb 
@@ -119,9 +115,9 @@ def ReadPage(sender, url):
     return dir
 
 def ShowVideo(sender, url):
-  return None
+  return Redirect(RTMPVideoItem(url))
 
-def CallbackExample(sender,titleUrl):
+def CallbackExample(sender,url):
 
     ## you might want to try making me return a MediaContainer
     ## containing a list of DirectoryItems to see what happens =)

@@ -95,3 +95,4 @@ class FeedItem:
     if re.search(self.regd, content)!=None and re.search(self.regd, content).start()>0:
       self.date = re.search(self.regd, content).group(0).replace(self.dt,"")
 
+

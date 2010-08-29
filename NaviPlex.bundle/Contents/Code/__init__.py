@@ -74,16 +74,14 @@ def ReadPage(sender, url):
     dir = MediaContainer(title2=sender.itemTitle)
     dir.viewGroup = "InfoList"
     content = GetContents(url)    
-    #Log("fetched playlist")
     feed = Feed(content)
-    Log("loaded feed %s" % feed.title)
     for item in feed.items:
       if item.thumb != None:
-        thumb = item.thumb
+        thumb = str(item.thumb)
       else:
         thumb = R(ICON)
       if item.icon!=None:
-        art=item.icon
+        art = str(item.icon)
       else:
         art=R(ART)
       if item.type=="video":
@@ -93,7 +91,8 @@ def ReadPage(sender, url):
                 ShowVideo,
                 title=item.name, 
                 summary=None, 
-                thumb=item.thumb 
+                thumb=item.thumb,
+                art=art
               ),
               url=item.URL
            )

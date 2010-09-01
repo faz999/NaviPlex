@@ -22,13 +22,13 @@ class Feed:
     self.items = list()
     self.version = 1 # default version number
     lines = content.split('\n')
-    if re.search(self.regv, content,re.M)!=None and re.search(self.regv, content,re.M).start()>0:
+    if re.search(self.regv, content,re.M)!=None and re.search(self.regv, content,re.M).start()>-1:
       self.version = re.search(self.regv, content,re.M).group(0).replace(self.v,"")
-    if re.search(self.regt, content,re.M)!=None and re.search(self.regt, content,re.M).start()>0:
+    if re.search(self.regt, content,re.M)!=None and re.search(self.regt, content,re.M).start()>-1:
       self.title = re.search(self.regt, content,re.M).group(0).replace(self.t,"")
-    if re.search(self.regl, content,re.M)!=None and re.search(self.regl, content,re.M).start()>0:
+    if re.search(self.regl, content,re.M)!=None and re.search(self.regl, content,re.M).start()>-1:
       self.logo = re.search(self.regl, content,re.M).group(0).replace(self.l,"")
-    if re.search(self.regb, content,re.M)!=None and re.search(self.regb, content,re.M).start()>0:
+    if re.search(self.regb, content,re.M)!=None and re.search(self.regb, content,re.M).start()>-1:
       self.background = re.search(self.regb, content,re.M).group(0).replace(self.b,"")
 
     # attempt to find feed item chunks using reg ex..
@@ -57,7 +57,7 @@ class Feed:
 class FeedItem:
 
   t = "type="
-  regt = "[^#]type=(.+?){1,}"
+  regt = "type=(.+?){1,}"
   n = "name="
   regn = "[^#]name=(.+?){1,}"
   u = "URL="
@@ -79,20 +79,21 @@ class FeedItem:
   type = None
 
   def __init__(self,content):
+    self.content = content
 
-    if re.search(self.regt, content,re.M)!=None and re.search(self.regt, content,re.M).start()>0:
+    if re.search(self.regt, content,re.M)!=None and re.search(self.regt, content,re.M).start()>-1:
       self.type = re.search(self.regt, content,re.M).group(0).replace(self.t,"")
-    if re.search(self.regn, content,re.M)!=None and re.search(self.regn, content,re.M).start()>0:
+    if re.search(self.regn, content,re.M)!=None and re.search(self.regn, content,re.M).start()>-1:
       self.name = re.search(self.regn, content,re.M).group(0).replace(self.n,"")
-    if re.search(self.regu, content,re.M)!=None and re.search(self.regu, content,re.M).start()>0:
+    if re.search(self.regu, content,re.M)!=None and re.search(self.regu, content,re.M).start()>-1:
       self.URL = re.search(self.regu, content,re.M).group(0).replace(self.u,"")
-    if re.search(self.regd, content,re.M)!=None and re.search(self.regd, content,re.M).start()>0:
+    if re.search(self.regd, content,re.M)!=None and re.search(self.regd, content,re.M).start()>-1:
       self.description = re.search(self.regd, content,re.M).group(0).replace(self.d,"")
-    if re.search(self.regi, content,re.M)!=None and re.search(self.regi, content,re.M).start()>0:
+    if re.search(self.regi, content,re.M)!=None and re.search(self.regi, content,re.M).start()>-1:
       self.icon = re.search(self.regi, content,re.M).group(0).replace(self.i,"")
-    if re.search(self.regth, content,re.M)!=None and re.search(self.regth, content,re.M).start()>0:
+    if re.search(self.regth, content,re.M)!=None and re.search(self.regth, content,re.M).start()>-1:
       self.thumb = re.search(self.regth, content,re.M).group(0).replace(self.th,"")
-    if re.search(self.regd, content,re.M)!=None and re.search(self.regd, content,re.M).start()>0:
+    if re.search(self.regd, content,re.M)!=None and re.search(self.regd, content,re.M).start()>-1:
       self.date = re.search(self.regd, content,re.M).group(0).replace(self.dt,"")
 
 

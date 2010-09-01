@@ -57,7 +57,7 @@ class Feed:
 class FeedItem:
 
   t = "type="
-  regt = "[^#]type=(.+?){1,}"
+  regt = "type=(.+?){1,}"
   n = "name="
   regn = "[^#]name=(.+?){1,}"
   u = "URL="
@@ -80,18 +80,18 @@ class FeedItem:
 
   def __init__(self,content):
 
-    if re.search(self.regt, content)!=None and re.search(self.regt, content).start()>0:
-      self.type = re.search(self.regt, content).group(0).replace(self.t,"")
-    if re.search(self.regn, content)!=None and re.search(self.regn, content).start()>0:
-      self.name = re.search(self.regn, content).group(0).replace(self.n,"")
-    if re.search(self.regu, content)!=None and re.search(self.regu, content).start()>0:
-      self.URL = re.search(self.regu, content).group(0).replace(self.u,"")
-    if re.search(self.regd, content)!=None and re.search(self.regd, content).start()>0:
-      self.description = re.search(self.regd, content).group(0).replace(self.d,"")
-    if re.search(self.regi, content)!=None and re.search(self.regi, content).start()>0:
-      self.icon = re.search(self.regi, content).group(0).replace(self.i,"")
-    if re.search(self.regth, content)!=None and re.search(self.regth, content).start()>0:
-      self.thumb = re.search(self.regth, content).group(0).replace(self.th,"")
-    if re.search(self.regd, content)!=None and re.search(self.regd, content).start()>0:
-      self.date = re.search(self.regd, content).group(0).replace(self.dt,"")
+    if re.search(self.regt, content,re.M)!=None and re.search(self.regt, content,re.M).start()>0:
+      self.type = re.search(self.regt, content,re.M).group(0).replace(self.t,"")
+    if re.search(self.regn, content,re.M)!=None and re.search(self.regn, content,re.M).start()>0:
+      self.name = re.search(self.regn, content,re.M).group(0).replace(self.n,"")
+    if re.search(self.regu, content,re.M)!=None and re.search(self.regu, content,re.M).start()>0:
+      self.URL = re.search(self.regu, content,re.M).group(0).replace(self.u,"")
+    if re.search(self.regd, content,re.M)!=None and re.search(self.regd, content,re.M).start()>0:
+      self.description = re.search(self.regd, content,re.M).group(0).replace(self.d,"")
+    if re.search(self.regi, content,re.M)!=None and re.search(self.regi, content,re.M).start()>0:
+      self.icon = re.search(self.regi, content,re.M).group(0).replace(self.i,"")
+    if re.search(self.regth, content,re.M)!=None and re.search(self.regth, content,re.M).start()>0:
+      self.thumb = re.search(self.regth, content,re.M).group(0).replace(self.th,"")
+    if re.search(self.regd, content,re.M)!=None and re.search(self.regd, content,re.M).start()>0:
+      self.date = re.search(self.regd, content,re.M).group(0).replace(self.dt,"")
 

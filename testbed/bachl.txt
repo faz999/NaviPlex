@@ -1,0 +1,117 @@
+version=7
+title=ABC [COLOR=FF888888]»[/COLOR] 
+background=http://ll.static.abc.com/m/themes/images/abc/shows/the_bachelorette/bkgd.jpg
+
+# page: http://abc.go.com/watch/the-bachelorette/SH5556990
+# css: http://abc.go.com/vp2/s/utils/themelibrary/index/k/theme_2115861657_SH005440010000_001_001_05040004_1
+# season: http://abc.go.com/vp2/showlongcarouseltabbedview/feed/aHR0cDovL2FiYy5nby5jb20vdnAyL3dzL3MvY29udGVudHMvMjAwMC90YWJiZWRjYXJvdXNlbC97YnJhbmRJRH0ve2RldmljZUlEfS9sZi9TSDU1NTY5OTAvNi97c3RhcnR9L3tzaXplfT9wZz1zaG93X2xmJnBsPXtwbGF5bGlzdElEfSZyYW5kPXtyYW5kfQ,,/showid/SH5556990/serieid/1
+# eps_raw: http://abc.go.com/vp2/showlongformcarouselimagelist/feed/aHR0cDovL2FiYy5nby5jb20vdnAyL3dzL3MvY29udGVudHMvMjAwMC9wbGF5bGlzdHMvMDAxLzAwMS9QTDU1MTU5OTQvU0g1NTU2OTkwLzYvLTEvLTEve3N0YXJ0fS97c2l6ZX0_cmFuZD0wNTA0MDAwNF8xXzA,/start/0/limit/100/t/PL5515994/
+
+type=video
+name=Week 9, Part 1
+thumb=http://cdn.video.abc.com/abcvideo/video_fep/thumbnails/220x124/BCT_609_BCT609p1_episode_d2c719d9-ff22-413a-9807-fc5b41603369_3093721_220x124.jpg
+URL=http://abc.go.com/watch/the-bachelorette/SH5556990/VD5576832/week-9-part-1?br=800
+processor=http://navix.turner3d.net/proc/abc
+
+type=video
+name=Week 9, Part 2
+thumb=http://cdn.video.abc.com/abcvideo/video_fep/thumbnails/220x124/BCT_609_BCT609p2_episode_e479f251-3c8c-4d1f-a52a-410d5b65e069_3093723_220x124.jpg
+URL=http://abc.go.com/watch/the-bachelorette/SH5556990/VD5576825/week-9-part-2?br=800
+processor=http://navix.turner3d.net/proc/abc
+
+type=video
+name=Week 8 - Part 1
+thumb=http://cdn.video.abc.com/abcvideo/video_fep/thumbnails/220x124/BCT_608_BCT608p1_episode_d9a9994f-fda4-4041-ac1a-090763b5d6d1_3079695_220x124.jpg
+URL=http://abc.go.com/watch/the-bachelorette/SH5556990/VD5575941/week-8---part-1?br=800
+processor=http://navix.turner3d.net/proc/abc
+
+type=video
+name=Week 8 - Part 2
+thumb=http://cdn.video.abc.com/abcvideo/video_fep/thumbnails/220x124/BCT_608_BCT608p2_episode_4cfba95b-7108-4266-9b4e-bd4b7b12ad93_3079696_220x124.jpg
+URL=http://abc.go.com/watch/the-bachelorette/SH5556990/VD5575946/week-8---part-2?br=800
+processor=http://navix.turner3d.net/proc/abc
+
+type=video
+name=Week 7, Part 2
+thumb=http://cdn.video.abc.com/streaming/images/player/episodes/thebachelorette/bct_607_p2.jpg
+URL=http://abc.go.com/watch/the-bachelorette/SH5556990/VD5574782/week-7-part-2?br=800
+processor=http://navix.turner3d.net/proc/abc
+
+type=video
+name=Week 7, Part 1
+thumb=http://cdn.video.abc.com/streaming/images/player/episodes/thebachelorette/bct_607_p1.jpg
+URL=http://abc.go.com/watch/the-bachelorette/SH5556990/VD5574777/week-7-part-1?br=800
+processor=http://navix.turner3d.net/proc/abc
+
+type=video
+name=Week 6, Part 2
+thumb=http://cdn.video.abc.com/streaming/images/player/episodes/thebachelorette/bct_606_p2.jpg
+URL=http://abc.go.com/watch/the-bachelorette/SH5556990/VD5573893/week-6-part-2?br=800
+processor=http://navix.turner3d.net/proc/abc
+
+type=video
+name=Week 6, Part 1
+thumb=http://cdn.video.abc.com/streaming/images/player/episodes/thebachelorette/bct_606_p1.jpg
+URL=http://abc.go.com/watch/the-bachelorette/SH5556990/VD5573899/week-6-part-1?br=800
+processor=http://navix.turner3d.net/proc/abc
+
+type=video
+name=Week 5, Part 2
+thumb=http://cdn.video.abc.com/streaming/images/player/episodes/thebachelorette/bct_605_p2_02.jpg
+URL=http://abc.go.com/watch/the-bachelorette/SH5556990/VD5572452/week-5-part-2?br=800
+processor=http://navix.turner3d.net/proc/abc
+
+type=video
+name=Week 5, Part 1
+thumb=http://cdn.video.abc.com/streaming/images/player/episodes/thebachelorette/bct_605_p2.jpg
+URL=http://abc.go.com/watch/the-bachelorette/SH5556990/VD5572458/week-5-part-1?br=800
+processor=http://navix.turner3d.net/proc/abc
+
+type=video
+name=Week 4, Part 1
+thumb=http://cdn.video.abc.com/streaming/images/player/episodes/thebachelorette/bct_604_p1.jpg
+URL=http://abc.go.com/watch/the-bachelorette/SH5556990/VD5571339/week-4-part-1?br=800
+processor=http://navix.turner3d.net/proc/abc
+
+type=video
+name=Week 4, Part 2
+thumb=http://cdn.video.abc.com/streaming/images/player/episodes/thebachelorette/bct_604_p2.jpg
+URL=http://abc.go.com/watch/the-bachelorette/SH5556990/VD5571345/week-4-part-2?br=800
+processor=http://navix.turner3d.net/proc/abc
+
+type=video
+name=Week 3, Part 2
+thumb=http://cdn.video.abc.com/streaming/images/player/episodes/thebachelorette/bct_603_p2.jpg
+URL=http://abc.go.com/watch/the-bachelorette/SH5556990/VD5570298/week-3-part-2?br=800
+processor=http://navix.turner3d.net/proc/abc
+
+type=video
+name=Week 3, Part 1
+thumb=http://cdn.video.abc.com/streaming/images/player/episodes/thebachelorette/bct_603_p1.jpg
+URL=http://abc.go.com/watch/the-bachelorette/SH5556990/VD5570292/week-3-part-1?br=800
+processor=http://navix.turner3d.net/proc/abc
+
+type=video
+name=Week 2, Part 1
+thumb=http://cdn.video.abc.com/streaming/images/player/episodes/thebachelorette/bct_602_p1.jpg
+URL=http://abc.go.com/watch/the-bachelorette/SH5556990/VD5568415/week-2-part-1?br=800
+processor=http://navix.turner3d.net/proc/abc
+
+type=video
+name=Week 2, Part 2
+thumb=http://cdn.video.abc.com/streaming/images/player/episodes/thebachelorette/bct_602_p2.jpg
+URL=http://abc.go.com/watch/the-bachelorette/SH5556990/VD5568421/week-2-part-2?br=800
+processor=http://navix.turner3d.net/proc/abc
+
+type=video
+name=Week 1, Part 2
+thumb=http://cdn.video.abc.com/streaming/images/player/episodes/thebachelorette/bct_601_p2.jpg
+URL=http://abc.go.com/watch/the-bachelorette/SH5556990/VD5564523/week-1-part-2?br=800
+processor=http://navix.turner3d.net/proc/abc
+
+type=video
+name=Week 1, Part 1
+thumb=http://cdn.video.abc.com/streaming/images/player/episodes/thebachelorette/bct_601_p1.jpg
+URL=http://abc.go.com/watch/the-bachelorette/SH5556990/VD5564529/week-1-part-1?br=800
+processor=http://navix.turner3d.net/proc/abc
+

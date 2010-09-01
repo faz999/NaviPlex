@@ -1,7 +1,7 @@
 import re
 from feed import *
 
-filename = "main.txt"
+filename = "bachl.txt"
 
 FILE = open(filename, "r")
 content = FILE.read()
@@ -14,20 +14,15 @@ for item in f.items:
 # attempt to find feed item chunks using reg ex..
 reg = "^type="
 
-matches = re.finditer(reg, content, re.M)
+t = "type="
+regt = "type=(.+?){1,}"
+
+matches = re.finditer(regt, content, re.M)
 if matches == None:
   print "none found"
 else:
-  lastpos = 0
-  for match in matches:
-    if lastpos > 0:
-      # collect feed item
-      #print "last post = " + str(lastpos) + " to " + str(match.start())
-      newlen = match.start() - lastpos
-      #print content[lastpos:match.start()]
-      item = FeedItem(content[lastpos:match.start()])
-      #print item.name
-    lastpos = match.start()
+  if re.search(regt, content,re.M)!=None and re.search(regt, content,re.M).start()>0:
+    print re.search(regt, content,re.M).group(0).replace(t,"")
 
   # try to get the last chunk...
   #item = FeedItem(content[lastpos:len(content)])

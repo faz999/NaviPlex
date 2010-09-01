@@ -84,6 +84,7 @@ def ReadPage(sender, url):
         art = str(item.icon)
       else:
         art=R(ART)
+      Log("type = " + item.type)
       if item.type=="video":
         dir.Append(
             Function(

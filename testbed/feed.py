@@ -70,6 +70,8 @@ class FeedItem:
   regth = "[^#]thumb=(.+?){1,}"
   dt = "date="
   regdt = "[^#]date=(.+?){1,}"
+  p = "processor="
+  regp = "[^#]processor=(.+?){1,}"
 
   description = ""
   icon = None
@@ -81,6 +83,8 @@ class FeedItem:
   def __init__(self,content):
     self.content = content
 
+    if re.search(self.regp, content,re.M)!=None and re.search(self.regp, content,re.M).start()>-1:
+      self.processor = re.search(self.regp, content,re.M).group(0).replace(self.p,"")
     if re.search(self.regt, content,re.M)!=None and re.search(self.regt, content,re.M).start()>-1:
       self.type = re.search(self.regt, content,re.M).group(0).replace(self.t,"")
     if re.search(self.regn, content,re.M)!=None and re.search(self.regn, content,re.M).start()>-1:

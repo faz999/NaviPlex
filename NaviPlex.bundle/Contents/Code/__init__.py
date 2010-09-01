@@ -84,20 +84,20 @@ def ReadPage(sender, url):
         art = str(item.icon)
       else:
         art=R(ART)
-      Log("type = " + item.type)
       if item.type=="video":
-        dir.Append(
-            Function(
-              WebVideoItem(
-                ShowVideo,
-                title=item.name, 
-                summary=None, 
-                thumb=item.thumb,
-                art=art
-              ),
-              url=item.URL
-           )
-        )
+        #dir.Append(
+        #    Function(
+        #      WebVideoItem(
+        #        ShowVideo,
+        #        title=item.name, 
+        #        summary=None, 
+        #        thumb=item.thumb,
+        #        art=art
+        #      ),
+        #      url=item.URL
+        #   )
+        #)
+        dir.Append(RTMPVideoItem(item.URL, item.processor, title=item.name, summary=item.name, thumb=thumb))
       else:
         dir.Append(
             Function(

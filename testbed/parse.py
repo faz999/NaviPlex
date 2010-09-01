@@ -9,7 +9,7 @@ FILE.close()
 
 f = Feed(content)
 print "\ncontent: \n"
-print f.items[0].type
+print f.items[0].processor
 #print f.version, f.title, f.logo, f.background, len(f.items)
 # attempt to find feed item chunks using reg ex..
 reg = "^type="
@@ -29,6 +29,3 @@ else:
   else:
     print "No Match\n"
 
-  # try to get the last chunk...
-  #item = FeedItem(content[lastpos:len(content)])
-  #print item.name
